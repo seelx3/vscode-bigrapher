@@ -1,0 +1,25 @@
+{
+  "name": "bigrapher",
+  "displayName": "BigraphER",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "bigrapher",
+      "aliases": ["bigrapher", "bigrapher"],
+      "extensions": ["big"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "bigrapher",
+      "scopeName": "source.big",
+      "path": "./syntaxes/bigrapher.tmLanguage.json"
+    }]
+  }
+}

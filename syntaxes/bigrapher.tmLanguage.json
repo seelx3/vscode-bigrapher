@@ -1,0 +1,43 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "bigrapher",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#processes"
+		}
+	],
+	"repository": {
+		"comments": {
+			"patterns": [ 
+				{
+					"name": "comment.line.number-sign.bigrapher",
+					"match": "#.*$"
+				}
+			]
+		},
+		"processes": {
+			"patterns": [
+				{
+					"name": "keyword.control.bigrapher",
+					"match": "\\b(atomic|ctrl|fun|big|react|begin|end|share|by|in|brs|pbrs|sbrs)\\b"
+				},
+				{
+					"name": "keyword.operator.bigrapher",
+					"match": "(=|\\||\\|\\|)"
+				},
+				{
+					"name": "entity.name.bigrapher",
+					"match": "\\b[a-zA-Z][a-zA-Z0-9_]*\\b"
+				},
+				{
+					"name": "constant.numeric.bigrapher",
+					"match": "[+-]?[0-9]+[\\.]?[0-9]*[eE]?[+-]?[0-9]*"
+				}
+			]
+		}
+	},
+	"scopeName": "source.big"
+}
