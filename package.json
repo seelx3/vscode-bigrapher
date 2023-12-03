@@ -3,6 +3,7 @@
   "displayName": "BigraphER",
   "description": "",
   "version": "0.0.1",
+  "publisher": "seelx3",
   "engines": {
     "vscode": "^1.84.0"
   },
