@@ -10,16 +10,28 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "bigrapher",
-      "aliases": ["bigrapher", "bigrapher"],
-      "extensions": ["big"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "bigrapher",
-      "scopeName": "source.big",
-      "path": "./syntaxes/bigrapher.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "bigrapher",
+        "aliases": [
+          "bigrapher",
+          "bigrapher"
+        ],
+        "extensions": [
+          "big"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "bigrapher",
+        "scopeName": "source.big",
+        "path": "./syntaxes/bigrapher.tmLanguage.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "vsce": "^2.15.0"
   }
 }
