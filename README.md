@@ -11,7 +11,7 @@ This is VSCode extension for [BigraphER](https://uog-bigraph.bitbucket.io/)
 
 ## Install 
 
-- e.g. `\Users\<USERNAME>\.vscode\extensions\seelx3.bigrapher-0.0.1` (Windows)
+- Install from `bigrapher-0.0.1.vsix`.
 
 ## Info
 
